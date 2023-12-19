@@ -73,6 +73,7 @@ button {
     padding: 10px;
     margin-top: 10px;
     font-weight: bolder; 
+    border-radius: 15px;
 }
 
 .mainimg {
@@ -85,4 +86,14 @@ button {
 
 .main-img{
     border: solid black 5px;
+}
+
+.body {
+    display:flex;
+    font-size: 36px; 
+    font-weight: bolder;
+    color: #1f2937;
+    justify-content: center;
+    align-content: center;
+
 }
