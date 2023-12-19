@@ -5,8 +5,8 @@ body {
 }
 
 .header-img {
-    max-height:50px;
-    max-width:150px;
+    max-height:70px;
+    border: solid black 3px;
 }
 
 .header {
@@ -55,24 +55,34 @@ body {
     margin: 0px;
     max-width: 500px;
     flex-wrap: wrap;
+    gap: 10px;
 }
 
 .mankind-small {
     font-size: 18px;
     color: #E5E7Eb;
     font-weight:normal;
+    margin-top: 10px;
 }
 
 button {
-    background-color: #34c3eb;
+    background-color: #3882F6;
     color: #E5E7Eb;
     display: flex;
     justify-content: center; 
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bolder; 
 }
 
 .mainimg {
     display: flex;
     max-width: 300px;
     max-height: 300px;
-    align-content: center;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.main-img{
+    border: solid black 5px;
 }
