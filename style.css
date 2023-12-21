@@ -69,12 +69,12 @@ body {
 button {
     background-color: #3882F6;
     color: #E5E7Eb;
-    display: flex;
     justify-content: center; 
     padding: 10px;
     margin-top: 10px;
     font-weight: bolder; 
     border-radius: 15px;
+    max-height: 50px;
 }
 
 .mainimg {
@@ -154,4 +154,30 @@ button {
 .source  {
     font-weight: bold;
     text-align: end;
+}
+
+.action {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 350px;
+    margin: 150px;
+    padding: 30px;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+
+.action-text {
+    color: white;
+    font-size: 16px;
+    max-width: 480px;
+}
+
+.call {
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.action-button {
+    margin-top: 25px;
 }
