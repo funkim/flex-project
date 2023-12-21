@@ -57,6 +57,7 @@ body {
     max-width: 500px;
     flex-wrap: wrap;
     gap: 10px;
+    padding-right: 200px;
 }
 
 .mankind-small {
@@ -77,17 +78,15 @@ button {
     max-height: 50px;
 }
 
-.mainimg {
+.main-img {
     display: flex;
-    max-width: 300px;
-    max-height: 300px;
-    margin-left: 50px;
-    margin-top: 30px;
-}
-
-.main-img{
+    max-width: 600px;
+    max-height: 600px;
+    height: auto;
+    width: auto;
     border: solid black 5px;
 }
+
 
 .body {
     display:flex;
