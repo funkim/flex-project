@@ -39,7 +39,7 @@ body {
 .header-body {
     display:flex;
     padding:50px 100px 50px 100px;
-    gap: 250px;
+    justify-content: space-around;
 }
 
 .text{
@@ -57,7 +57,6 @@ body {
     max-width: 500px;
     flex-wrap: wrap;
     gap: 10px;
-    padding-right: 200px;
 }
 
 .mankind-small {
@@ -78,6 +77,11 @@ button {
     max-height: 50px;
 }
 
+.mainimg {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 .main-img {
     display: flex;
     max-width: 600px;
@@ -169,7 +173,8 @@ button {
 .action-text {
     color: white;
     font-size: 16px;
-    max-width: 480px;
+    display: flex;
+    flex-direction: column;
 }
 
 .call {
