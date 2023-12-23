@@ -29,17 +29,15 @@ body {
     list-style-type: none;
     font-size: 24px;
     color: #f9faf8;
+    align-content: center;
 }
 
-.header-title li {
-    align-content: center;
-    color: #f9faf8;
-}
 
 .header-body {
     display:flex;
     padding:50px 100px 50px 100px;
     justify-content: space-around;
+    flex-direction: column;
 }
 
 .text{
@@ -83,11 +81,8 @@ button {
     align-content: center;
 }
 .main-img {
-    display: flex;
-    max-width: 800px;
-    max-height: 600px;
-    height: auto;
-    width: auto;
+    align-content: end;
+    width: 100%;
     border: solid black 5px;
 }
 
