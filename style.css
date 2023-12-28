@@ -30,31 +30,28 @@ body {
     font-size: 24px;
     color: #f9faf8;
     align-content: center;
+    padding-top: 10px;
 }
-
 
 .header-body {
     display:flex;
-    padding:50px 100px 50px 100px;
     justify-content: space-around;
-    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .text{
     flex-direction: column;
+    display: flex;
+    align-items: center;
 }
 
 .mankind {
     font-size: 48px;
     color: #f9faf8;
     font-weight:bolder;
-    display: flex;
-    justify-content: start;
-    padding: 0px;
     margin: 0px;
     max-width: 500px;
-    flex-wrap: wrap;
-    gap: 10px;
 }
 
 .mankind-small {
@@ -78,8 +75,11 @@ button {
 .mainimg {
     display: flex;
     justify-content: center;
-    align-content: center;
+    max-width: 60%;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
+
 .main-img {
     align-content: end;
     width: 100%;
@@ -135,13 +135,13 @@ button {
 .quote-holder {
     flex-direction: column;
     display: flex;
-    margin-top: 10;
     background-color:#E5E7EB;
     align-content: center;
     justify-content: center;
     flex: auto;
     font-weight: lighter;
     padding: 100px;
+    width: 75%;
 }
 .quote{
     font-size: 36px;
@@ -152,14 +152,12 @@ button {
 .source  {
     font-weight: bold;
     text-align: end;
+    padding-top: 10px;
 }
 
 .action {
     display: flex;
-    align-content: center;
-    justify-content: center;
-    gap: 350px;
-    margin: 150px;
+    justify-content: space-around;
     padding: 30px;
     background-color: #3882F6;
     border-radius: 15px;
